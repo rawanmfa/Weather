@@ -1,5 +1,3 @@
-///<reference types="../@types/jquery"/>
-
 let allDayes=[];
 let homeWeather = document.getElementById('homeWeather');
 
