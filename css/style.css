@@ -1,0 +1,132 @@
+.main-color{
+    background-color: #1e202b;
+}
+.sec-main-color{
+    color: #009ad8;
+}
+.third-main-color{
+    background-color: #262936;
+}
+.form-control{
+    --bs-body-color: white;
+    --bs-body-bg: #1e202b;
+}
+a,p,h2,ul,li,h5,span{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+}
+.navitemm{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.nav-right li:hover .navitemm{
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+    color: #009ad8;
+}
+.myactive{
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+    color: #009ad8;
+}
+.nav_icon_text p{
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.main-img{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    min-height: 350px;
+}
+.main-img-bottom{
+    min-height: 350px;
+    background-color: #1e202b;
+}
+.my-rounded{
+    --bs-border-radius:30px
+}
+.top-layer input::placeholder{
+    color: #75756e;
+}
+.top-layer button{
+    background-color: #009ad8;
+    color: white;
+    padding: 12px 40px;
+    top: 4.5px;
+    right: 7px;
+}
+.layer{
+    top: -250px;
+    left: 0;
+    right: 0;
+}
+.item-header{
+    background-color: #2d303d;
+}
+.item-body{
+    background-color: #323544;
+}
+.item-body li img{
+    width: 20px;
+}
+.my-gutter{
+    --bs-gutter-x:0;
+}
+.my-size{
+    font-size: 90px;
+    font-weight: 700;
+}
+.item-header p{
+    margin-bottom: 0;
+}
+.my-height{
+    height: 331px;
+}
+.mid-item-head{
+    background-color: #222530;
+}
+.my-form-border{
+    --bs-border-color:transparent;
+}
+.social-links i{
+    font-size: 20px;
+}
+.social-links div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1e202b;
+}
+.con-input a{
+    top: 17px;
+    left: 25px;
+}
+.con-input span{
+    top: 17px;
+    left: 90px;
+}
+.my-sec-form-border{
+    --bs-border-color:#75756e;
+}
+.my-sec-form-border::placeholder{
+    color: #75756e;
+}
+.my-sec-form-border:hover{
+    --bs-border-color:#009ad8;
+}
+.sub-button button{
+    background-color: #009ad8;
+    color: white;
+    padding: 10px 30px;
+}
+.my-div-rounded{
+    border-radius: 30px;
+    padding: 30px;
+}
